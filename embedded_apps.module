@@ -33,3 +33,17 @@ function embedded_apps_theme() {
     ],
   ];
 }
+
+/**
+ * Implements hook_theme().
+ */
+function embedded_apps_theme() {
+  return [
+    'current_currency_prices' => [
+      'variables' => [
+        'content' => NULL
+      ],
+      'render element' => 'children',
+    ],
+  ];
+}

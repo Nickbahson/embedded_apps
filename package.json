@@ -1,7 +1,7 @@
 {
   "name": "embedded_apps",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "embedded/src/app.js",
   "author": "Nickbahson <nijoba33@gmail.com>",
   "license": "MIT",
   "devDependencies": {
