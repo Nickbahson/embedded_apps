@@ -3,6 +3,7 @@
     "type": "drupal-module",
     "description": "contains embedded applications",
     "keywords": [
+        "embedded applications","vue js", "Drupal"
     ],
     "homepage": "https://www.drupal.org/project/embedded_apps",
     "minimum-stability": "dev",
