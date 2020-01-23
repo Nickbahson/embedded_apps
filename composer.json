@@ -1,0 +1,17 @@
+{
+    "name": "embedded_apps",
+    "type": "drupal-module",
+    "description": "contains embedded applications",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/embedded_apps",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/embedded_apps",
+        "source": "http://cgit.drupalcode.org/embedded_apps"
+    },
+    "require": {
+        "drupal/core": "^8.6",
+        "kokspflanze/alpha-vantage-api": "^1.0.0"
+    }
+}

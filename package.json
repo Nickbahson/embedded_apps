@@ -1,0 +1,11 @@
+{
+  "name": "embedded_apps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nickbahson <nijoba33@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^2.6.11",
+    "webpack-cli": "^3.3.10"
+  }
+}

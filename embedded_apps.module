@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains embedded_apps.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function embedded_apps_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the embedded_apps module.
+    case 'help.page.embedded_apps':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('contains embedded apllications') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function embedded_apps_theme() {
+  return [
+    'embedded_apps' => [
+      'render element' => 'children',
+    ],
+  ];
+}

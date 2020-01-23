@@ -1,0 +1,5 @@
+name: 'Embedded Apps'
+type: module
+description: 'contains embedded applications'
+core: 8.x
+package: 'Apps'
