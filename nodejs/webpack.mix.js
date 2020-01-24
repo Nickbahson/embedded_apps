@@ -11,7 +11,7 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('embedded/src/app.js', 'embedded_libraries/').sass('embedded/src/app.scss', 'embedded_libraries/');
+mix.js('src/app.js', 'libraries/vueapp').sass('src/app.scss', 'libraries/vueapp');
 
 // Full API
 // mix.js(src, output);
