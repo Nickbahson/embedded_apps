@@ -1,0 +1,8 @@
+vue_app:
+  version: 1.x
+  js:
+    nodejs/libraries/vueapp/app.js: {}
+  css:
+    layout:
+      nodejs/libraries/vueapp/app.css: {}
+

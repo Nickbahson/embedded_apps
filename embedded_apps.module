@@ -31,14 +31,7 @@ function embedded_apps_theme() {
     'embedded_apps' => [
       'render element' => 'children',
     ],
-  ];
-}
-
-/**
- * Implements hook_theme().
- */
-function embedded_apps_theme() {
-  return [
+    // another
     'current_currency_prices' => [
       'variables' => [
         'content' => NULL

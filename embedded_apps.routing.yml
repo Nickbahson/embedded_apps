@@ -1,0 +1,8 @@
+
+embedded_apps.currency_api_controller_currencies:
+  path: '/embedded_apps/get_currencies'
+  defaults:
+    _controller: '\Drupal\embedded_apps\Controller\CurrencyApiController::getValues'
+    _title: 'Currencies'
+  requirements:
+    _permission: 'access content'

@@ -30,12 +30,12 @@ mix.js('src/app.js', 'libraries/vueapp').sass('src/app.scss', 'libraries/vueapp'
 // mix.copy(from, to);
 // mix.copyDirectory(fromDir, toDir);
 // mix.minify(file);
-mix.sourceMaps(); // Enable sourcemaps
+//mix.sourceMaps(); // Enable sourcemaps
 // mix.version(); // Enable versioning.
 // mix.disableNotifications();
 // mix.setPublicPath('path/to/public');
 // mix.setResourceRoot('prefix/for/resource/locators');
-mix.autoload({}); //<-- Will be passed to Webpack's ProvidePlugin.
+//mix.autoload({}); //<-- Will be passed to Webpack's ProvidePlugin.
 // mix.webpackConfig({}); <-- Override webpack.config.js, without editing the file directly.
 // mix.babelConfig({}); <-- Merge extra Babel configuration (plugins, etc.) with Mix's default.
 // mix.then(function () {}) <-- Will be triggered each time Webpack finishes building.
